@@ -59,3 +59,5 @@ const findtheAge = (arr,age) => {
 }
 
 const ans2 = findtheAge(arr,age);
+
+// i have made some changes 
