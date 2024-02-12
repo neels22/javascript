@@ -7,8 +7,8 @@ function spiralTraverse(n) {
     let { row, col } = { row: 0, col: 0 };
     const directions = ["r", "d", "l", "u"];
     let currentDirection = directions[0];
-    for (let count = 1; count <= n ** 2; count++) {
-        matrix[row][col] = count;
+    for (let index = 1; index <= n ** 2; index++) {
+        matrix[row][col] = index;
         if (currentDirection === "r" && (col === n - 1 || matrix[row][col + 1] !== undefined)) {
             currentDirection = directions[1];
         } else if (currentDirection === "d" && (row === n - 1 || matrix[row + 1][col] !== undefined)) {
