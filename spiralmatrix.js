@@ -3,7 +3,7 @@ function spiralTraverse(n) {
     for (let row = 0; row < n; row++) {
         matrix[row] = [];
     }
-    console.log(matrix);
+    // console.log(matrix);
     let { row, col } = { row: 0, col: 0 };
     const directions = ["r", "d", "l", "u"];
     let currentDirection = directions[0];
@@ -31,4 +31,4 @@ function spiralTraverse(n) {
     return matrix;
 }
 
-spiralTraverse(5);
+const mat = spiralTraverse(5);
