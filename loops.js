@@ -21,6 +21,8 @@ for (let index = 0; index < personKeys.length; index++) {
     const value = person[key];
     console.log(key, value);
 }
+///////////////////////////////////////////////////////////////////////////////////
+
 
 // for in loop
 for (let index in string) {
@@ -37,7 +39,7 @@ for (let key in person) {
     const value = person[key];
     console.log(key, value);
 }
-
+////////////////////////////////////////////////////////////////////////////////////////
 // for of
 for (let char of string) {
     console.log(char);
